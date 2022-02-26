@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: dodgerblue;
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 7px 0px #000;
+}
+.sub-container{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h4, h5{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+td{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+label{
+    font-weight: 500;
+    display: block;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1.4px solid #000;
+    font-weight: 600;
+    padding-left: 5px;
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+input:focus{
+    outline: 1px solid dodgerblue;
+}
+
+button{
+    border: 1px solid #000;
+    background: dodgerblue;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(26, 121, 216);
+    
+}
+.resultado{
+    border-radius: 10px;
+    box-shadow: 5px 6px 2px -4px #000000;
+    text-align: center;
+}
+
+
+.meio-grave{
+    background: orange;
+}
+.normal{
+    background: green;
+}
+.grau-1{
+    background: rgb(255, 136, 0);
+}
+.grau-2{
+    background: orangered;
+}
+.grau-3{
+    background: red;
+}
+
+
+
+
+@media all and (max-width: 370px){
+    td{
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    th{
+        font-size: 0.78rem;
+    }
+    h2, h1{
+        font-size: 1.2rem;
+    }
+    label{
+        font-size: 0.9rem;
+    }
+}
